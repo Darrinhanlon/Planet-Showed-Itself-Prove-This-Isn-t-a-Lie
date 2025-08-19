@@ -44,6 +44,13 @@ Heatmap of orbital diversity across semi-major axis and eccentricity. Bright reg
 ![Collapse Zone Overlay File: collapse_zone_overlay.png
  <img width="1563" height="938" alt="image" src="https://github.com/user-attachments/assets/c4f397d6-acb3-4129-a9ae-16a5c81a9f72" />
 
+4️⃣ Symbolic Orbital Map: Planet g & Triangulation Zones  
+![Symbolic Orbital Map](planet_g_diagram.jpeg)  <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/cac81e6b-5a0d-4905-a2dd-f6723a1ef5c1" />
+
+Illustrates Neptune’s resonance zones, Planet g’s hypothetical orbit, and triangulation regions where symbolic gravitational encoding manifests. Gradient curve marks the envelope boundary. Detached TNOs cluster in zones of orbital memory.
+
+Illustrates Neptune’s resonance zones, Planet g’s hypothetical orbit, and triangulation regions where symbolic gravitational encoding manifests. Gradient curve marks the envelope boundary. Detached TNOs cluster in zones of orbital memory.
+
 Highlights regions where Planet 9’s gravitational field dominates Neptune’s, intersecting with envelope zones.
 
 Concentric resonance zones around Neptune’s orbit — labeled 3:2 (purple), 5:3 (magenta), 2:1 (orange), and 4:3 (red). Neptune’s orbit is shown as a dashed black circle.
