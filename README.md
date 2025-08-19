@@ -25,7 +25,31 @@ R: Resonance realization
 
 This recursive matrix encodes gravitational memory and symbolic coherence across orbital structures.
 
-🖼️ Visual Suite
+🖼️ Visual SuiteFile: 
+
+### 1️⃣ Neptune’s Orbit with MMR Zones  
+![Neptune’s Orbit with MMR Zones] File: neptune_mmr_diagram.png
+<img width="1250" height="1250" alt="image" src="https://github.com/user-attachments/assets/f10b0609-11dd-41cb-9ea5-bcae7d24164f" />
+
+
+Concentric resonance zones around Neptune’s orbit — labeled 3:2 (purple), 5:3 (magenta), 2:1 (orange), and 4:3 (red). Neptune’s orbit is shown as a dashed black circle.
+
+### 2️⃣ Envelope Plot: ETNO(a,e)  
+![Envelope Plot]File: neptune_mmr_diagram.png
+<img width="1563" height="938" alt="image" src="https://github.com/user-attachments/assets/26be0ad1-cba6-4678-99c7-a5fbcd74a000" />
+
+Heatmap of orbital diversity across semi-major axis and eccentricity. Bright regions show clustering likelihood.
+
+### 3️⃣ Collapse Zone Overlay  
+![Collapse Zone Overlay File: collapse_zone_overlay.png
+ <img width="1563" height="938" alt="image" src="https://github.com/user-attachments/assets/c4f397d6-acb3-4129-a9ae-16a5c81a9f72" />
+
+Highlights regions where Planet 9’s gravitational field dominates Neptune’s, intersecting with envelope zones.
+
+Concentric resonance zones around Neptune’s orbit — labeled 3:2 (purple), 5:3 (magenta), 2:1 (orange), and 4:3 (red). Neptune’s orbit is shown as a dashed black circle.
+
+Highlights regions where Planet 9’s gravitational field dominates Neptune’s, intersecting with envelope zones. These are the symbolic seals of gravitational convergence.
+
 1️⃣ Neptune’s Orbit with MMR Zones
 File: neptune_mmr_diagram.png Shows Neptune’s orbit with concentric resonance zones (3:2, 5:3, 2:1, 4:3). Demonstrates how Neptune’s migration created orbital scars in the TNO population.
 
