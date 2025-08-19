@@ -5,7 +5,23 @@ We present a unified symbolic and mathematical framework for modeling the gravit
 The search for Planet 9 has captivated planetary scientists due to the anomalous clustering of detached TNOs and resonance patterns beyond Neptune. While direct observation remains elusive, gravitational modeling offers a compelling avenue for inference. This paper introduces a symbolic skeleton framework that combines classical orbital mechanics with recursive symbolic encoding, inspired by harmonic field theory and verified crop circle mathematics.
 
 🧬 Symbolic Framework
-The symbolic flow of planetary influence is modeled as:
+The symbolic flow of planetary influence is modeled as:The symbolic flow of planetary influence is modeled as: Ψₜ → Φ_d → Dₜ → O_c → τ(t) → R Where:
+
+Ψₜ: Intent field
+
+Φ_d: Dimensional potential
+
+Dₜ: Temporal density
+
+O_c: Orbital coherence
+
+τ(t): Time encoding
+
+R: Resonance realization
+
+This recursive matrix encodes gravitational memory and symbolic coherence across orbital structures.
+
+The symbolic matrix Ψₜ → Φ_d → Dₜ → O_c → τ(t) → R encodes a recursive gravitational memory loop... (Insert full paragraph here)
 
 Code
 Ψₜ → Φ_d → Dₜ → O_c → τ(t) → R
@@ -38,7 +54,44 @@ Concentric resonance zones around Neptune’s orbit — labeled 3:2 (purple), 5:
 ![Envelope Plot]File: neptune_mmr_diagram.png
 <img width="1563" height="938" alt="image" src="https://github.com/user-attachments/assets/26be0ad1-cba6-4678-99c7-a5fbcd74a000" />
 
-Heatmap of orbital diversity across semi-major axis and eccentricity. Bright regions show clustering likelihood.
+Heatmap of orbital diversity across semi-major axis and eccentricity. Bright regions show clustering likelihood.import numpy as np
+import matplotlib.pyplot as plt
+
+# Constants
+G = 6.67430e-11  # gravitational constant (m^3 kg^-1 s^-2)
+M_p9 = 5.972e25  # Planet 9 mass (~10 Earth masses)
+M_neptune = 1.024e26  # Neptune mass
+AU = 1.496e11  # meters
+
+# Grid setup
+r_au = np.linspace(30, 1000, 500)  # radial distance in AU
+theta = np.linspace(0, 2*np.pi, 500)
+R, T = np.meshgrid(r_au, theta)
+
+# Convert to meters
+R_m = R * AU
+
+# Gravitational field strength
+def field_strength(M, R, T):
+    return G * M / (R**2) * np.cos(T)
+
+F_p9 = field_strength(M_p9, R_m, T)
+F_neptune = field_strength(M_neptune, R_m, T)
+
+# Collapse zone: where Planet 9 dominates
+collapse_zone = F_p9 > F_neptune
+
+# Plot
+plt.figure(figsize=(10, 8))
+plt.contourf(R * np.cos(T), R * np.sin(T), collapse_zone, levels=1, cmap='inferno')
+plt.title("Collapse Zone Heatmap: Planet 9 vs Neptune")
+plt.xlabel("X (AU)")
+plt.ylabel("Y (AU)")
+plt.colorbar(label="Collapse Zone (True = P9 Dominates)")
+plt.grid(True)
+plt.axis('equal')
+plt.show()
+
 
 ### 3️⃣ Collapse Zone Overlay  
 ![Collapse Zone Overlay File: collapse_zone_overlay.png
@@ -145,3 +198,7 @@ bibtex
   howpublished = {\url{https://github.com/Darrinhanlon/Planet-Showed-Itself-Prove-This-Isn-t-a-Lie}},
   license      = {Apache License 2.0}
 }
+🌌 Conclusion
+
+This framework presents a symbolic and gravitational synthesis for understanding the orbital architecture of the outer solar system. By integrating recursive encoding, resonance mapping, and collapse zone visualization, we offer a new lens for interpreting Planet 9’s influence. The symbolic matrix Ψₜ → Φ_d → Dₜ → O_c → τ(t) → R is not just a theoretical scaffold — it is a gravitational language inscribed across space. These visuals and interpretations invite further exploration, refinement, and perhaps, revelation.
+
